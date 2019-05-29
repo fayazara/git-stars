@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>gitstars</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but gitstars doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>Gitstars | Trending github repositories</title>
+  <meta name=theme-color content=#5892d0>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Product+Sans:100,300,400,500,600,700,800&display=swap">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.5.94/css/materialdesignicons.min.css">
+  <meta name=description
+    content="Git stars lets you hunt trending github repositories in Javascript, CSS, Python, Ruby, Java & PHP, without any distractions with a clean and simple ui">
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but gitstars doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+  <script type=application/ld+json>
+    {
+      "@context": "http://www.schema.org",
+      "@type": "WebSite",
+      "name": "Git Stars",
+      "alternateName": "Git-stars",
+      "url": "https://git-stars.netlify.com"
+    }
+ </script>
+</body>
+
 </html>
