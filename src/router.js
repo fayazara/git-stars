@@ -16,6 +16,11 @@ export default new Router({
       component: Home
     },
     {
+      path: '/index.html',
+      name: 'home',
+      component: Home
+    },
+    {
       path: '/:language',
       name: 'language',
       component: Language
